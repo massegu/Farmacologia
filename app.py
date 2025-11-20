@@ -1,7 +1,7 @@
 # app.py
 import streamlit as st
-from hha_module import show_hha_module
-from antidepressants_module import show_antidepressants_module
+from hha_modulo import show_hha_module
+from antidepresivos import show_antidepressants_module
 from mechanism_module import show_mechanism_module
 
 st.set_page_config(page_title="Neurofarmacología Clínica", layout="wide")
